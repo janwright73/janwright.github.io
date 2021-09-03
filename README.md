@@ -13,10 +13,12 @@ Follow a these simple steps to set up a personal web page using GitHub!
 4) Click on the link for 'uploading an existing file.
 5) Create a simple website with two files, index.html and an image of yourself on your local machine
 6) Index.html should include:
+```html
     <html>
       <h1> Yourname's Portfolio</h1>
       <img src="./yourimagefile.JPG">
     </html>
+  ```
 7) yourimagefile.JPG should be an image file of yourself
 8) drag and drop these files from your local filesystem to the GitHub page
 9) Commit your changes by pressing the 'Commit changes' button
