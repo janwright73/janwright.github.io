@@ -23,3 +23,4 @@ Follow a these simple steps to set up a personal web page using GitHub.
 8) Drag and drop these files from your local filesystem to the GitHub page
 9) Commit your changes by pressing the 'Commit changes' button
 10) Test your personal website by opening a new browser window and navigating to 'yourGitHubuserId.github.io'
+11) You can check out my portfolio by visiting <a href="janwright73.github.io">janwright73.github.io</a>.
