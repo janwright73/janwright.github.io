@@ -1,7 +1,10 @@
 # janwright73.github.io
 Hello!
 
-Are you a new programmer or an experienced programmer that would like to show off a portfolio of your recent GitHub coding projects?  If so, you landed on the right README.  
+Are you a new programmer or an experienced programmer that would like to show off a portfolio of your recent GitHub coding projects?  
+
+If so, you landed on the right README. 
+ 
 Follow a these simple steps to set up a personal web page using GitHub!
 
 1) logon or create a GitHub account - http://github.com
