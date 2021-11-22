@@ -1,4 +1,192 @@
-<html>
-    <h1>Welcome to Jan's Portfolio</h1>
-    <img src="./Jan_bio_pic.jpg" />
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Jan Wright</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+  
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Jan Wright</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/JustWright.png" class="bd-placeholder-img" width="100%" height="100%" />
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Good Morning.</h1>
+            <p>Every day can be a do-over.  What adventures will today bring?</p>
+            <!-- p>Every day is a do-over.  What  </p -->
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/snow.png" class="bd-placeholder-img" width="100%" height="100%" />
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="dark-text">How do I learn?  I do things.</h1>
+            <p class="dark-text">Check out my recent work from the MIT MERN bootcamp. </p>
+            <p><a class="btn btn-lg btn-primary" href="projects.html">Projects</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        
+        <img src="images/IMG_9092.JPG" class="bd-placeholder-img" width="100%" height="100%" />
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Work hard and play harder.</h1>
+            <p>Be kind, work hard, spend time with friends and in nature.</p>
+            <p><a class="btn btn-lg btn-primary" href="about.html">About me</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" src="images/pacman.png" width="140" height="140"/>
+        <h2>PacMen Exercise</h2>
+        <p>A JavaScript factory pattern example that adds pacmen and moves them within the browser window.</p>
+        <p><a class="btn btn-secondary" href="https://github.com/janwright73/pacmenExercise" target="_blank">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" src="images/eyes.png" width="140" height="140"/>
+        <h2>Eye Exercise</h2>
+        <p>A CSS eyes example that highlights the best ways to organize your CSS, HTML, and JavaScript files.</p>
+        <p><a class="btn btn-secondary" href="https://github.com/janwright73/EyeExercise" target="_blank">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" src="images/bustracker.png" width="140" height="140"/>
+        <h2>Real Time Bus Tracker</h2>
+        <p>Asynchronous Code example that leverages a map API to plot bus stops between MIT and Harvard.</p>
+        <p><a class="btn btn-secondary" href="https://github.com/janwright73/bus-tracker" target="_blank">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Hi. My name is Jan Wright <span class="text-muted">Welcome to my site.</span></h2>
+        <p class="lead">Watch my intro video to learn about my journey as a software professional.</p>
+      </div>
+      <div class="col-md-5">
+        <!-- https://youtu.be/cuVTfIPfG94 Jan intro video -->
+        <iframe src="https://youtube.com/embed/cuVTfIPfG94" width="500" height="315" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Oh yeah, it’s good to learn new tricks. <span class="text-muted">MIT fullstack coding camp.</span></h2>
+        <p class="lead">Check out the first set of example <a href="projects.html">projects</a> from my <a href="https://executive-ed.xpro.mit.edu/professional-certificate-coding" target="_blank">MIT full-stack bootcamp</a> on the MERN (Mongo, Espress, React, Node) stack.  I am taking this course to sharpen my development skills and transition back into a product leadership role. </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="images/dogs.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" />
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Want to learn more about me? <span class="text-muted">Let's connect.</span></h2>
+        <p class="lead"> <a href="https://github.com/janwright73" target="_blank">GitHub</a> <br>
+          <a href="https://www.linkedin.com/in/jan-wright-7848b21b" target="_blank">LinkedIn</a><br>
+          <label>Email:</label>
+               <a href="mailto: jan.wright73@gmail.com=Mail from JanWright.com" target="_blank">jan.wright73@gmail.com</a><br>
+          Check out my bio in the <a href="about.html">about</a> section of this site.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="images/Jan_bio_pic.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" />
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2021 Just Wright, Inc. </p>
+  </footer>
+</main>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
 </html>
